@@ -1,6 +1,6 @@
 # Local .terraform directories
 **/.terraform/*
-
+dynamodb-local/
 # .tfstate files
 *.tfstate
 *.tfstate.*

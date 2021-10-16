@@ -1,0 +1,21 @@
+docker -v
+docker compose logs -f 
+docker compose up -d  
+docker compose down
+
+list container
+docker ps -a
+
+stop all containers
+docker kill $(docker ps -q)
+
+remove all containers
+docker rm $(docker ps -a -q)
+
+docker start {my_container}
+
+docker images
+docker image ls -a
+docker rmi {the_image}
+docker volume prune -f
+--------------------------------------------------------------

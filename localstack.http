@@ -1,0 +1,3 @@
+GET http://localhost:4566/health HTTP/1.1
+
+GET http://localhost:8501 HTTP/1.1
