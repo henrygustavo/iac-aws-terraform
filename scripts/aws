@@ -1,9 +1,0 @@
-aws configure
-aws dynamodb list-tables --endpoint-url http://localhost:4566
-
-[default]
-aws_access_key_id = anaccesskey
-aws_secret_access_key = anaccesskey
-region = us-west-1
---------------------------------------------------------------
-https://github.com/aaronshaf/dynamodb-admin/issues/29 config dynamodb 

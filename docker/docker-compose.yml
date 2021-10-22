@@ -23,6 +23,7 @@ services:
       SERVICES: s3,sns,sqs,dynamodb
       DEBUG: 1
       DEFAULT_REGION: us-west-1
+      AWS_DEFAULT_REGION: us-west-1
       DATA_DIR: /tmp/host/localstack/data
 
   terraform:
